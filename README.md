@@ -13,3 +13,6 @@ The Open Graph Data Extractor API is a Django-based service that allows users to
 
 # Example of extracting OG data
 curl -X GET "https://og-extractor.vercel.app/og?url=<https://example.com>" 
+
+# Read More About Open Graph Protocols
+https://ogp.me/
