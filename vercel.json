@@ -1,5 +1,10 @@
 {
     "version":2,
+     "functions": {
+       "extractor/*": { 
+       "maxDuration": 15
+  }
+},
     "builds":[
         {
         "src":"og_extractor/wsgi.py",
@@ -15,11 +20,6 @@
             "src":"/(.*)",
             "dest":"og_extractor/wsgi.py"
         }
-    ],
-    "functions": {
-       "extractor/*": { 
-       "maxDuration": 15
-  }
-}
+    ]
 
 }
