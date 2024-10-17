@@ -2,7 +2,7 @@
     "version":2,
      "functions": {
        "extractor/*": { 
-       "maxDuration": 15
+        "timeout": 30
   }
 },
     "builds":[
