@@ -1,9 +1,9 @@
 {
     "version":2,
      "functions": {
-       "extractor/*": { 
-        "timeout": 30
-  }
+       "og_extractor/wsgi.py": {
+      "maxDuration": 30
+    }
 },
     "builds":[
         {
