@@ -17,7 +17,7 @@
         }
     ],
     "functions": {
-       "extractor/**/*": { 
+       "**/*": { 
        "maxDuration": 15
   }
 }
